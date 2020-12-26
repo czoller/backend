@@ -15,7 +15,8 @@ public class VehicelRestController {
 		"Penny Morris", Set.of("Venus", "Neptun"),
 		"Elvis Cridlington", Set.of("Jupiter", "Venus"),
 		"Norris Steele", Set.of(),
-		"Tom Thomas", Set.of("Wallaby 1")
+		"Tom Thomas", Set.of("Wallaby 1"),
+		"Norman Price", Set.of("Skateboard")
 	);
 	
 	@GetMapping("/list")
