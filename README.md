@@ -22,3 +22,13 @@ Example:
 ```
 curl http://localhost:7070/list?user=Sam%20Jones
 ```
+
+## Content 
+
+- [VehicelRestController](src/main/java/com/github/acme42/backend/VehicelRestController.java)
+
+## Related Projects
+
+- [Simplified SPA Frontend](https://github.com/acme42/frontend)
+
+- [Super Simplified Single Sign-On Portal](https://github.com/acme42/portal)
