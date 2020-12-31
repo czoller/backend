@@ -31,10 +31,11 @@ public class VehicelRestController {
 	}
 	
 	@PostMapping("/add")
-	public void addVehicleForUser(@RequestParam String vehicle, @RequestParam String user) {
+	public Map<String, Boolean> addVehicleForUser(@RequestParam String vehicle, @RequestParam String user) {
 		if (!userVehicles.containsKey(user)) {
 			userVehicles.put(user, new HashSet<String>());
 		}
 		userVehicles.get(user).add(vehicle);
+		return Map.of("success", true);
 	}
 }
